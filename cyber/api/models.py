@@ -11,9 +11,9 @@ class PartidoPolitico(models.Model):
     estado = models.CharField(max_length=45, blank=True, default='')
 
     # atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')
 
 
@@ -28,9 +28,9 @@ class EsegJNE(models.Model):
     observacion = models.CharField(max_length=400, blank=True, default='')
 
     # atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')
 
 
@@ -44,9 +44,9 @@ class PlanEstudio(models.Model):
     estado = models.CharField(max_length=45,blank=True,default='')
 
     # atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')
 
 class SecretariaPP(models.Model):
@@ -59,9 +59,9 @@ class SecretariaPP(models.Model):
     responsable = models.CharField(max_length=45, blank=True, default='')
 
     # atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')
 
 
@@ -80,9 +80,9 @@ class Militante(models.Model):
     cargo = models.CharField(max_length=45, blank=True,default='')
 
     # atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')
 
 
@@ -94,9 +94,9 @@ class Examen(models.Model):
     responsable = models.CharField(max_length=45, blank=True, default='')
 
     # atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')
 
 
@@ -110,9 +110,9 @@ class MilitanteExamen(models.Model):
     nota = models.IntegerField()
 
     # atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')
 
 class Pregunta(models.Model):
@@ -121,9 +121,9 @@ class Pregunta(models.Model):
     contenido = models.CharField(max_length=600, blank=True, default='')
 
     # atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')
 
 
@@ -138,9 +138,9 @@ class ExamenPregunta(models.Model):
     # no tiene
 
     # atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')
 
 
@@ -154,9 +154,9 @@ class Debate(models.Model):
     moderador = models.CharField(max_length=45, blank=True, default='')
 
     # atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')
 
 
@@ -170,9 +170,9 @@ class Usuario(models.Model):
     contra = models.CharField(max_length=45, blank=True, default='')
 
     # atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')
 
 class Curso(models.Model):
@@ -186,9 +186,9 @@ class Curso(models.Model):
     docente = models.CharField(max_length=100, blank=True, default='')
 
     # atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')
 
 
@@ -204,7 +204,7 @@ class Conferencia(models.Model):
     tipo = models.CharField(max_length=45, blank=True, default='')
 
     #atributos de auditoria
-    fecha_registro = models.DateField()
+    fecha_registro = models.DateField(auto_now_add=True)
     usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField()
+    fecha_modificacion = models.DateField(auto_now=True)
     usuario_modificacion = models.CharField(max_length=45, blank=True, default='')

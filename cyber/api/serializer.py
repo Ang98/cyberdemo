@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
 
-from api.models import *
+from .models import *
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -18,7 +18,7 @@ class PartidoPoliticoSerializer(serializers.ModelSerializer):
         model = PartidoPolitico
         fields = ['id','nombre','estado','fecha_registro','usuario_registro','fecha_modificacion','usuario_modificacion',]
 
-class EsejJNESerializer(serializers.ModelSerializer):
+class EsegJNESerializer(serializers.ModelSerializer):
     class Meta:
         model = EsegJNE
         fields=['id','estado','dni_responsable','apellidos','nombres','sugerencia','observacion',]
