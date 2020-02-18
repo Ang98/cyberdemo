@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b5032d-e45b-4e82-81ce-e205bb358881" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cyber/api/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cyber/api/migrations/0002_auto_20200211_0039.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/_mysql.cp38-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/connections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/constants/CLIENT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/constants/CR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/constants/ER.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/constants/FIELD_TYPE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/constants/FLAG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/constants/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/converters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/cursors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/release.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/MySQLdb/times.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/mysqlclient-1.4.6.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/mysqlclient-1.4.6.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/mysqlclient-1.4.6.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/mysqlclient-1.4.6.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/mysqlclient-1.4.6.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env/Lib/site-packages/mysqlclient-1.4.6.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.env/pyvenv.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cyber/api/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cyber/api/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/cyber/api/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cyber/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cyber/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/cyber/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyber/cyberdemocracia/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cyber/cyberdemocracia/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cyber/cyberdemocracia/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="110">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#1#33#0" expanded="true" />
@@ -34,26 +53,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cyber/cyberdemocracia/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cyber/api/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="188" column="56" lean-forward="true" selection-start-line="188" selection-start-column="56" selection-end-line="188" selection-end-column="56" />
+            <state relative-caret-position="523">
+              <caret line="96" column="49" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cyber/api/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cyber/api/serializer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="457">
+              <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -64,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cyber/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="154">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -76,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cyber/api/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="352">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -94,22 +113,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cyber/cyberdemocracia/urls.py" />
-        <option value="$PROJECT_DIR$/cyber/cyberdemocracia/settings.py" />
         <option value="$PROJECT_DIR$/cyber/back/models.py" />
         <option value="$PROJECT_DIR$/cyber/back/serializer.py" />
         <option value="$PROJECT_DIR$/cyber/back/views.py" />
-        <option value="$PROJECT_DIR$/cyber/api/serializer.py" />
         <option value="$PROJECT_DIR$/cyber/api/views.py" />
         <option value="$PROJECT_DIR$/cyber/api/urls.py" />
         <option value="$PROJECT_DIR$/cyber/api/models.py" />
+        <option value="$PROJECT_DIR$/cyber/cyberdemocracia/settings.py" />
+        <option value="$PROJECT_DIR$/cyber/api/serializer.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="292" />
-    <option name="y" value="62" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="240" />
+    <option name="y" value="128" />
+    <option name="width" value="1440" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -117,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,24 +158,18 @@
               <item name="cyberdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="cyberdemo" type="462c0819:PsiDirectoryNode" />
               <item name="cyber" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cyberdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cyberdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="cyber" type="462c0819:PsiDirectoryNode" />
               <item name="cyberdemocracia" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cride" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Proyecto diseño ferreteria/proyecto" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -190,13 +202,20 @@
       <option name="project" value="LOCAL" />
       <updated>1581366661663</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="apis hechas 1.0">
+      <created>1581399791135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581399791135</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123350926" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17480211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -207,7 +226,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.08438819" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.04500703" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -218,49 +237,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="serializer terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="serializer terminado" />
+    <MESSAGE value="apis hechas 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="apis hechas 1.0" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cyber/api/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cyber/back/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4642">
-          <caret line="211" column="82" selection-start-line="211" selection-start-column="82" selection-end-line="211" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cyber/back/serializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cyber/back/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cyber/api/serializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/cyber/back/models.py" />
+    <entry file="file://$PROJECT_DIR$/cyber/back/serializer.py" />
+    <entry file="file://$PROJECT_DIR$/cyber/back/views.py" />
+    <entry file="file://$PROJECT_DIR$/cyber/api/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cyber/cyberdemocracia/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="110">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="e#1#33#0" expanded="true" />
@@ -268,40 +260,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cyber/api/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cyber/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="154">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cyber/api/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cyber/cyberdemocracia/settings.py">
+    <entry file="file://$PROJECT_DIR$/cyber/api/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+        <state relative-caret-position="352">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cyber/api/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="188" column="56" lean-forward="true" selection-start-line="188" selection-start-column="56" selection-end-line="188" selection-end-column="56" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cyber/cyberdemocracia/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="96" column="49" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cyber/api/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

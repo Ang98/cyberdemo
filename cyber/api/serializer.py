@@ -16,68 +16,68 @@ class UserSerializer(serializers.ModelSerializer):
 class PartidoPoliticoSerializer(serializers.ModelSerializer):
     class Meta:
         model = PartidoPolitico
-        fields = ['id','nombre','estado','fecha_registro','usuario_registro','fecha_modificacion','usuario_modificacion',]
+        fields = '__all__'
 
 class EsegJNESerializer(serializers.ModelSerializer):
     class Meta:
         model = EsegJNE
-        fields=['id','estado','dni_responsable','apellidos','nombres','sugerencia','observacion',]
+        fields = '__all__'
 
 
 class PlanEstudioSerializer(serializers.ModelSerializer):
     class Meta:
         model = PlanEstudio
-        fields = ['id','id_seg','nombre','estado',]
+        fields = '__all__'
 
 
 class SecretariaPPSerializer(serializers.ModelSerializer):
     class Meta:
         model = SecretariaPP
-        fields = ['id','id_partido','nombre','descripcion','responsable',]
+        fields = '__all__'
 
 class MilitanteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Militante
-        fields = ['id','id_militante','id_plan','id_partido','dni','apellidos','nombres','perfil']
+        fields = '__all__'
 
 class ExamenSerializer(serializers.ModelSerializer):
     class Meta:
         model = Examen
-        fields = ['id','tipo','responsable',]
+        fields = '__all__'
 
 class MilitanteExamenSerializer(serializers.ModelSerializer):
     class Meta:
         model = MilitanteExamen
-        fields = ['id','id_militante','id_examen','nota',]
+        fields = '__all__'
 
 
 class PreguntaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Pregunta
-        fields=['id','contenido','fecha_registro','usuario_registro','fecha_modificacion','usuario_modificacion',]
+        fields = '__all__'
 
 class ExamenPreguntaSerializer(serializers.ModelSerializer):
     class Meta:
         model = ExamenPregunta
-        fields=['id','id_examen','id_pregunta','fecha_registro','usuario_registro','fecha_modificacion','usuario_modificacion',]
+        fields = '__all__'
 
 class DebateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Debate
-        fields=['id','id_militante','tema','estado','moderador','fecha_registro','usuario_registro','fecha_modificacion','usuario_modificacion',]
+        fields = '__all__'
 
 class UsuarioSerializer(serializers.ModelSerializer):
     class Meta:
         model = Usuario
-        fields=['id','id_militante','usuario','contra','fecha_registro','usuario_registro','fecha_modificacion','usuario_modificacion',]
+        fields = '__all__'
 
 class CursoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Curso
-        fields=['id','id_pan','nombre_curso','sumilla','docente','fecha_registro','usuario_registro','fecha_modificacion','usuario_modificacion',]
+        fields = '__all__'
 
 class ConferenciaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Conferencia
-        fields=['id','id_plan','tema','apellidos_conferencista','nombres_conferenciasta','tipo','fecha_registro','usuario_registro','fecha_modificacion','usuario_modificacion',]
+        fields = '__all__'
 
