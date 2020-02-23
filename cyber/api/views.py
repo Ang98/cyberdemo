@@ -28,6 +28,18 @@ class SecretariaPPViewSet(viewsets.ModelViewSet):
     queryset = SecretariaPP.objects.all()
     serializer_class = SecretariaPPSerializer
 
+class PersonaViewSet(viewsets.ModelViewSet):
+    queryset = Persona.objects.all()
+    serializer_class = PersonaSerializer
+
+class ExternoViewSet(viewsets.ModelViewSet):
+    queryset = Externo.objects.all()
+    serializer_class = ExternoSerializer
+
+class AdministradorViewSet(viewsets.ModelViewSet):
+    queryset = Administrador.objects.all()
+    serializer_class = AdministradorSerializer
+
 class MilitanteViewSet(viewsets.ModelViewSet):
     queryset = Militante.objects.all()
     serializer_class = MilitanteSerializer
@@ -44,6 +56,10 @@ class PreguntaViewSet(viewsets.ModelViewSet):
     queryset = Pregunta.objects.all()
     serializer_class = PreguntaSerializer
 
+class AlternativaViewSet(viewsets.ModelViewSet):
+    queryset = Alternativa.objects.all()
+    serializer_class = AlternativaSerializer
+
 class ExamenPreguntaViewSet(viewsets.ModelViewSet):
     queryset = ExamenPregunta.objects.all()
     serializer_class = ExamenPreguntaSerializer
@@ -51,10 +67,6 @@ class ExamenPreguntaViewSet(viewsets.ModelViewSet):
 class DebateViewSet(viewsets.ModelViewSet):
     queryset = Debate.objects.all()
     serializer_class = DebateSerializer
-
-class UsuarioViewSet(viewsets.ModelViewSet):
-    queryset = Usuario.objects.all()
-    serializer_class = UsuarioSerializer
 
 class CursoViewSet(viewsets.ModelViewSet):
     queryset = Curso.objects.all()

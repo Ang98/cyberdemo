@@ -35,6 +35,21 @@ class SecretariaPPSerializer(serializers.ModelSerializer):
         model = SecretariaPP
         fields = '__all__'
 
+class PersonaSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Persona
+        fields = '__all__'
+
+class AdministradorSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Administrador
+        fields = '__all__'
+
+class ExternoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Externo
+        fields = '__all__'
+
 class MilitanteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Militante
@@ -56,6 +71,16 @@ class PreguntaSerializer(serializers.ModelSerializer):
         model = Pregunta
         fields = '__all__'
 
+class AlternativaSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Alternativa
+        fields = '__all__'
+
+class PreguntaSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Pregunta
+        fields = '__all__'
+
 class ExamenPreguntaSerializer(serializers.ModelSerializer):
     class Meta:
         model = ExamenPregunta
@@ -66,10 +91,7 @@ class DebateSerializer(serializers.ModelSerializer):
         model = Debate
         fields = '__all__'
 
-class UsuarioSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Usuario
-        fields = '__all__'
+
 
 class CursoSerializer(serializers.ModelSerializer):
     class Meta:
