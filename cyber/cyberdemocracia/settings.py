@@ -102,11 +102,8 @@ CORS_ORIGIN_WHILELIST=[
 DATABASES = {
 
     'default': {
-            'NAME': 'cyberdemocracia',
-            'ENGINE': 'django.db.backends.mysql',
-            'USER': 'root',
-            'PASSWORD': 'root',
-            'HOST':''
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR,'db.sqlite3'),
         }
 }
 
