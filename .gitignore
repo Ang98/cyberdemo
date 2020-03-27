@@ -1,1 +1,4 @@
 *.sqlite3
+migrations/
+.env
+.idea
