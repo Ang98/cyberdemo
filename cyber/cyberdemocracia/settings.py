@@ -64,6 +64,12 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'cyberdemocracia.urls'
 
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:3000',
+)
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -81,12 +87,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'cyberdemocracia.wsgi.application'
-
-CORS_ORIGIN_WHILELIST=[
-
-    "http://localhost:3000"
-]
-
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
@@ -145,3 +145,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
