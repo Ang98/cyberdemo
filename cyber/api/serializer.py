@@ -1,22 +1,24 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
 
-from .models import *
+from ..models import *
 
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
-        model=User
-        fields = ['id','username','password']
+        model = User
+        fields = ['id', 'username', 'password']
 
     def create(self, validated_data):
         user = User.objects.create_user(**validated_data)
         return user
 
+
 class PartidoPoliticoSerializer(serializers.ModelSerializer):
     class Meta:
         model = PartidoPolitico
         fields = '__all__'
+
 
 class EsegJNESerializer(serializers.ModelSerializer):
     class Meta:
@@ -35,30 +37,36 @@ class SecretariaPPSerializer(serializers.ModelSerializer):
         model = SecretariaPP
         fields = '__all__'
 
+
 class PersonaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Persona
         fields = '__all__'
+
 
 class AdministradorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Administrador
         fields = '__all__'
 
+
 class ExternoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Externo
         fields = '__all__'
+
 
 class MilitanteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Militante
         fields = '__all__'
 
+
 class ExamenSerializer(serializers.ModelSerializer):
     class Meta:
         model = Examen
         fields = '__all__'
+
 
 class MilitanteExamenSerializer(serializers.ModelSerializer):
     class Meta:
@@ -71,20 +79,18 @@ class PreguntaSerializer(serializers.ModelSerializer):
         model = Pregunta
         fields = '__all__'
 
+
 class AlternativaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Alternativa
         fields = '__all__'
 
-class PreguntaSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Pregunta
-        fields = '__all__'
 
 class ExamenPreguntaSerializer(serializers.ModelSerializer):
     class Meta:
         model = ExamenPregunta
         fields = '__all__'
+
 
 class DebateSerializer(serializers.ModelSerializer):
     class Meta:
@@ -92,14 +98,13 @@ class DebateSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-
 class CursoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Curso
         fields = '__all__'
 
+
 class ConferenciaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Conferencia
         fields = '__all__'
-
