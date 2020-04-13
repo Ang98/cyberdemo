@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/3.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
+from corsheaders.defaults import default_headers
 
 import os
 
@@ -64,11 +65,20 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'cyberdemocracia.urls'
 
-CORS_ALLOW_CREDENTIALS = True
+"""CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
+)"""
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+
+
+CORS_ALLOW_HEADERS = default_headers + (
+    'Access-Control-Allow-Origin',
 )
+
 
 TEMPLATES = [
     {
