@@ -2,8 +2,8 @@ from django.shortcuts import render
 
 # CYBER
 from rest_framework import viewsets
-from .serializer import *
-from ..models import *
+from ..serializer.ConferenciaSerializer import *
+from ..models.Conferencia import *
 
 
 class ConferenciaViewSet(viewsets.ModelViewSet):

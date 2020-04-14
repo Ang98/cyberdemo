@@ -3,8 +3,8 @@ from django.shortcuts import render
 
 # CYBER
 from rest_framework import viewsets
-from .serializer import *
-from ..models import *
+from ..serializer.MilitanteSerializer import *
+from ..models.Militante import *
 
 
 class MilitanteViewSet(viewsets.ModelViewSet):

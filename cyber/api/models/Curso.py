@@ -2,7 +2,7 @@
 Curso
 """
 from django.db import models
-import PlanEstudio
+from .PlanEstudio import PlanEstudio
 
 
 class Curso(models.Model):

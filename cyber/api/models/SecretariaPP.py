@@ -3,7 +3,7 @@ Secreatria Partido Politico
 """
 
 from django.db import models
-from PartidoPolitico import PartidoPolitico
+from .PartidoPolitico import PartidoPolitico
 
 
 class SecretariaPP(models.Model):

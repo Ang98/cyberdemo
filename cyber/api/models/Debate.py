@@ -2,7 +2,7 @@
 Debate
 """
 from django.db import models
-from Militante import Militante
+from .Militante import Militante
 
 
 class Debate(models.Model):

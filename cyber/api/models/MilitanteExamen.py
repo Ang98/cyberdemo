@@ -2,8 +2,8 @@
 Militante Examen
 """
 from django.db import models
-from Militante import Militante
-from Examen import Examen
+from .Militante import Militante
+from .Examen import Examen
 
 
 class MilitanteExamen(models.Model):

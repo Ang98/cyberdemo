@@ -4,7 +4,7 @@ Externo
 
 from django.db import models
 
-from Persona import Persona
+from .Persona import Persona
 
 
 class Externo(Persona):

@@ -2,8 +2,8 @@
 Examen Pregunta
 """
 from django.db import models
-from Examen import Examen
-from Pregunta import Pregunta
+from .Examen import Examen
+from .Pregunta import Pregunta
 
 
 class ExamenPregunta(models.Model):

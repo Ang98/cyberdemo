@@ -2,9 +2,9 @@
 Militante
 """
 from django.db import models
-from Persona import Persona
-from PlanEstudio import PlanEstudio
-from PartidoPolitico import PartidoPolitico
+from .Persona import Persona
+from .PlanEstudio import PlanEstudio
+from .PartidoPolitico import PartidoPolitico
 
 
 class Militante(Persona):

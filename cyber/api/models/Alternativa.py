@@ -2,7 +2,7 @@
 Alternativa
 """
 from django.db import models
-from Examen import Examen
+from .Examen import Examen
 
 
 class Alternativa(models.Model):

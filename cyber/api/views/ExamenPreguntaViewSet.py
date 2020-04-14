@@ -3,8 +3,8 @@ from django.shortcuts import render
 
 # CYBER
 from rest_framework import viewsets
-from .serializer import *
-from ..models import *
+from ..serializer.ExamenPreguntaSerializer import *
+from ..models.ExamenPregunta import *
 
 
 class ExamenPreguntaViewSet(viewsets.ModelViewSet):

@@ -3,7 +3,7 @@ Conferencia
 """
 
 from django.db import models
-import PlanEstudio
+from .PlanEstudio import PlanEstudio
 
 
 class Conferencia(models.Model):

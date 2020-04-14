@@ -3,7 +3,7 @@ Plan Estudio
 """
 
 from django.db import models
-from EsegJNE import EsegJNE
+from .EsegJNE import EsegJNE
 
 
 class PlanEstudio(models.Model):
