@@ -1,6 +1,6 @@
 
 from rest_framework import serializers
-from ..models import Alternativa
+from ..models.Alternativa import Alternativa
 
 
 class AlternativaSerializer(serializers.ModelSerializer):

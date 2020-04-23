@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..models import Pregunta
+from ..models.Pregunta import Pregunta
 
 
 class PreguntaSerializer(serializers.ModelSerializer):

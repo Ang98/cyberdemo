@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..models import Curso
+from ..models.Curso import Curso
 
 
 

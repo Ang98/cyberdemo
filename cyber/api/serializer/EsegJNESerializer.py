@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..models import EsegJNE
+from ..models.EsegJNE import EsegJNE
 
 
 class EsegJNESerializer(serializers.ModelSerializer):

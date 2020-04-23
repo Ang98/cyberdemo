@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..models import PlanEstudio
+from ..models.PlanEstudio import PlanEstudio
 
 
 

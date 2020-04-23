@@ -1,7 +1,7 @@
 
 
 from rest_framework import serializers
-from ..models import MilitanteExamen
+from ..models.MilitanteExamen import MilitanteExamen
 
 
 class MilitanteExamenSerializer(serializers.ModelSerializer):

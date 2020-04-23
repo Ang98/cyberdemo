@@ -1,6 +1,6 @@
 
 from rest_framework import serializers
-from ..models import Militante
+from ..models.Militante import Militante
 
 
 class MilitanteSerializer(serializers.ModelSerializer):

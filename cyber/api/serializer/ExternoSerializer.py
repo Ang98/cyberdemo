@@ -1,6 +1,6 @@
 
 from rest_framework import serializers
-from ..models import Externo
+from ..models.Externo import Externo
 
 
 class ExternoSerializer(serializers.ModelSerializer):

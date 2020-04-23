@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..models import SecretariaPP
+from ..models.SecretariaPP import SecretariaPP
 
 
 

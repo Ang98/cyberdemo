@@ -1,6 +1,6 @@
 
 from rest_framework import serializers
-from ..models import Persona
+from ..models.Persona import Persona
 
 
 class PersonaSerializer(serializers.ModelSerializer):

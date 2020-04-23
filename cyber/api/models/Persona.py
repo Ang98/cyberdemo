@@ -2,6 +2,7 @@
 Persona
 """
 from django.db import models
+from django.contrib.auth.models import User
 
 
 class Persona(models.Model):
@@ -15,8 +16,9 @@ class Persona(models.Model):
     dni = models.CharField(max_length=15, blank=True, default='apellido_m')
     correo = models.EmailField()
     telefono = models.IntegerField()
-    usuario = models.CharField(max_length=40, blank=True, default='user')
-    contraseña = models.CharField(max_length=40, blank=True, default='pass')
+    usuario = models.OneToOneField(User, on_delete=models.CASCADE)
+    #usuario = models.CharField(max_length=40, blank=True, default='user')
+    #contraseña = models.CharField(max_length=40, blank=True, default='pass')
 
     """ atributos de auditoria"""
     fecha_registro = models.DateField(auto_now_add=True)

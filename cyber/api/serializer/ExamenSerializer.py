@@ -1,6 +1,6 @@
 
 from rest_framework import serializers
-from ..models import Examen
+from ..models.Examen import Examen
 
 
 class ExamenSerializer(serializers.ModelSerializer):
