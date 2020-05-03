@@ -2,14 +2,15 @@
 Militante
 """
 from django.db import models
-from .Persona import Persona
+
 from .PlanEstudio import PlanEstudio
 from .PartidoPolitico import PartidoPolitico
 
 
-class Militante(Persona):
+class Militante(models.Model):
 
     """atributos foraneos militante"""
+    usuario=  models.OneToOneField('usuarios.Usuario', on_delete=models.CASCADE)
     id_plan = models.ForeignKey(PlanEstudio, on_delete=models.CASCADE)
     id_partido = models.ForeignKey(PartidoPolitico, on_delete=models.CASCADE)
 

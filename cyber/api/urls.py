@@ -16,7 +16,7 @@ router.register('pp', PartidoPoliticoViewSet)
 router.register('eseg', EsegJNEViewSet)
 router.register('plan', PlanEstudioViewSet)
 router.register('secretaria', SecretariaPPViewSet)
-router.register('persona', PersonaViewSet)
+#router.register('persona', PersonaViewSet)
 router.register('externo', ExternoViewSet)
 router.register('administrador', AdministradorViewSet)
 router.register('militante', MilitanteViewSet)
@@ -28,6 +28,8 @@ router.register('examenPregunta', ExamenPreguntaViewSet)
 router.register('debate', DebateViewSet)
 router.register('curso', CursoViewSet)
 router.register('conferencia', ConferenciaViewSet)
+
+#router.register('usr',UsuarioViewSet)
 
 
 urlpatterns = [

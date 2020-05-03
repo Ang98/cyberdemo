@@ -28,6 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+#User & Authetication
+AUTH_USER_MODEL = 'usuarios.usuario'
 
 # Application definition
 
@@ -46,7 +48,11 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
+
+    #Local
     'api',
+    'usuarios',
+    
 ]
 
 MIDDLEWARE = [

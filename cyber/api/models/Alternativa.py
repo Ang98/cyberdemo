@@ -4,8 +4,9 @@ Alternativa
 from django.db import models
 from .Examen import Examen
 
+from utils.models import Auditoria
 
-class Alternativa(models.Model):
+class Alternativa(Auditoria ,models.Model):
 
     """atributos foraneos"""
     id_examen = models.ForeignKey(Examen, on_delete=models.CASCADE)
@@ -15,9 +16,4 @@ class Alternativa(models.Model):
     contenido = models.CharField(max_length=45, blank=True, default='')
     respuesta = models.BooleanField(default=False)
 
-    """ atributos de auditoria"""
-    fecha_registro = models.DateField(auto_now_add=True)
-    usuario_registro = models.CharField(max_length=45, blank=True, default='')
-    fecha_modificacion = models.DateField(auto_now=True)
-    usuario_modificacion = models.CharField(
-        max_length=45, blank=True, default='')
+

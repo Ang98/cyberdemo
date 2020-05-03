@@ -10,7 +10,8 @@ from .ExternoViewSet import *
 from .MilitanteExamenViewSet import *
 from .MilitanteViewSet import *
 from .PartidoPoliticoViewSet import *
-from .PersonaViewSet import *
+#from .PersonaViewSet import *
 from .PlanEstudioViewSet import *
 from .PreguntaViewSet import *
 from .SecretariaPPViewSet import *
+#from .UsuarioViewSet import *
