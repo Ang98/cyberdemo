@@ -24,7 +24,7 @@ class UsuarioLoginAPIView(APIView):
 
         data = {
             'user': UsuariorModelSerializer(usuario).data,
-            'access_tokensuod': token
+            'access_token': token
         }
 
         return Response(data, status=status.HTTP_201_CREATED)

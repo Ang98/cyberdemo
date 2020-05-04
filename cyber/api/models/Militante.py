@@ -6,8 +6,9 @@ from django.db import models
 from .PlanEstudio import PlanEstudio
 from .PartidoPolitico import PartidoPolitico
 
+from utils.models import Auditoria
 
-class Militante(models.Model):
+class Militante(Auditoria,models.Model):
 
     """atributos foraneos militante"""
     usuario=  models.OneToOneField('usuarios.Usuario', on_delete=models.CASCADE)
