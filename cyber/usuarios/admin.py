@@ -20,6 +20,13 @@ class UsuarioAdmin(UserAdmin):
         (('Datos de Usuario'), {'fields': ('dni', 'phone_number',)}),
         (('Tipo de Usuario'), {'fields': ('is_externo','is_administrador','is_militante',)}),
     )
+
+    add_fieldsets = (
+        (None, {
+            'classes': ('wide',),
+            'fields': ('username','password1','password2','dni', 'phone_number', 'email', )}
+         ),
+    )
     
 
 
